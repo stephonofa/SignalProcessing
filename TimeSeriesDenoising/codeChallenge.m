@@ -37,11 +37,11 @@ for i=1:N
 end
 
 
-clf
-subplot(211)
+clf,
+subplot(2,1,1)
 plot(1:N,origSignal,'linew',2)
 
-subplot(212)
+subplot(2,1,2)
 plot(1:N,cleanedSignal,'linew',2)
 
 %% done.

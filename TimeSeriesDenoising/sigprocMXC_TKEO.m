@@ -30,7 +30,7 @@ time0 = dsearchn(emgtime',0);
 emgZ = (emg-mean(emg(1:time0))) / std(emg(1:time0));
 
 % same for filtered EMG energy
-emgZf = (emgf-mean(emgf(1:time0))) / std(emgf(1:time0));
+emgZf = (emgf2-mean(emgf2(1:time0))) / std(emgf2(1:time0));
 
 %% plot
 
@@ -39,7 +39,7 @@ figure(1), clf
 % plot "raw" (normalized to max-1)
 subplot(211), hold on
 plot(emgtime,emg./max(emg),'b','linew',2)
-plot(emgtime,emgf./max(emgf),'m','linew',2)
+plot(emgtime,emgf2./max(emgf2),'m','linew',2)
 
 xlabel('Time (ms)'), ylabel('Amplitude or energy')
 legend({'EMG';'EMG energy (TKEO)'})

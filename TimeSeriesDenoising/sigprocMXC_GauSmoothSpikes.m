@@ -32,9 +32,9 @@ xlabel('Time (a.u.)')
 %% create and implement Gaussian window
 
 % full-width half-maximum: the key Gaussian parameter
-fwhm = 25; % in points
+fwhm = 20; % in points
 
-% normalized time vector in ms
+% normalized time vector in indices
 k = 100;
 gtime = -k:k;
 
