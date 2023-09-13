@@ -1,4 +1,4 @@
-%%
+ %%
 %     COURSE: Signal processing problems, solved in MATLAB and Python
 %    SECTION: Spectral and rhythmicity analyses
 %      VIDEO: Spectrogram of birdsong
